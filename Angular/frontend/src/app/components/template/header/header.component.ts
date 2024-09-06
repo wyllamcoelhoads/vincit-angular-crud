@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { MatToolbarModule } from '@angular/material/toolbar'; // Importe o MatToolbarModule
+
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [MatToolbarModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrls: ['./header.component.css']
 })
 
 export class HeaderComponent implements OnInit{
