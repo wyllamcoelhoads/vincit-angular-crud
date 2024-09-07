@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component'; // Importando o componente standalone
 import { MoviesComponent } from './views/movies/movies.component';
-import { AboutComponent } from './views/about/about.component';
 import { FinanceComponent } from './views/finance/finance.component';
 import { LogoutComponent } from './views/logout/logout.component';
 import { SettingComponent } from './views/setting/setting.component';
+import { MovieCreateComponent } from './components/movie/movie-create/movie-create.component';
 
 export const routes: Routes = [
     {
@@ -14,6 +14,10 @@ export const routes: Routes = [
     {
         path: 'movies',
         component: MoviesComponent
+    },
+    {
+        path: 'movies/create',
+        component: MovieCreateComponent
     },
     {
         path: 'finance',
@@ -29,7 +33,7 @@ export const routes: Routes = [
     },
     {
         path: 'about',
-        component: AboutComponent
+        component: AbortController
     },
     
 ];
