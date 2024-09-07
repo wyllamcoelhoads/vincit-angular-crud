@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component'; // Importando o componente standalone
 import { MoviesComponent } from './views/movies/movies.component';
 import { FinanceComponent } from './views/finance/finance.component';

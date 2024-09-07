@@ -8,11 +8,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { CommonModule } from '@angular/common'; 
 import { MatIconModule } from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [MatIconModule, MatCardModule, RouterOutlet, HeaderComponent, HomeComponent, NavigationComponent, FooterComponent, MatToolbarModule, CommonModule],  // Adicione o HeaderComponent aqui
+  imports: [MatIconModule, MatCardModule, MatDividerModule,MatButtonModule, RouterOutlet, HeaderComponent, HomeComponent, NavigationComponent, FooterComponent, MatToolbarModule, CommonModule],  // Adicione o HeaderComponent aqui
   templateUrl: 'app.component.html'
 })
 export class AppComponent {
