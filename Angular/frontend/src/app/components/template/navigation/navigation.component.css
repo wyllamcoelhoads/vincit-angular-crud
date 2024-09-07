@@ -2,12 +2,20 @@
     background-color: black;
 }
 
+.sidenav .mat-list{
+    width: auto;
+}
 .sidenav a {
     color: aliceblue;
 }
 
 .sidenav i {
     color: aliceblue;
+}
+.content {
+    padding: 10px;
+    background-color: white;
+    color: black;
 }
 .material-icons{
     vertical-align: middle;
