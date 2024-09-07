@@ -1,0 +1,11 @@
+.material-icons{
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.mat-list{
+    vertical-align: middle;
+    padding: 2px;
+    position: absolute;
+    background-color: blue;
+}
