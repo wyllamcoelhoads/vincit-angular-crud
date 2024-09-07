@@ -1,3 +1,14 @@
+.sidenav {
+    background-color: black;
+}
+
+.sidenav a {
+    color: aliceblue;
+}
+
+.sidenav i {
+    color: aliceblue;
+}
 .material-icons{
     vertical-align: middle;
     padding: 2px;
@@ -7,5 +18,4 @@
     vertical-align: middle;
     padding: 2px;
     position: absolute;
-    background-color: blue;
 }
