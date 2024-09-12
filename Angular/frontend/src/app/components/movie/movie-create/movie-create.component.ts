@@ -1,12 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MoviesComponent } from '../../../views/movies/movies.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-movie-create',
   standalone: true,
-  imports: [],
+  imports: [MoviesComponent],
   templateUrl: './movie-create.component.html',
-  styleUrl: './movie-create.component.css'
+  styleUrls: ['./movie-create.component.css']
 })
-export class MovieCreateComponent {
+export class MovieCreateComponent implements OnInit {
+  constructor(private router: Router) { }
+
+  ngOnInit(): void {
+
+  }
+
+  createMovie() {
+    console.log("salvar");
+  }
+
+  cancelar() {
+    this.router.navigate(["./movies"]);
+  }
+
 
 }
