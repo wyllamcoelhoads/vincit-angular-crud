@@ -11,11 +11,13 @@ import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ HttpClientModule, MatIconModule, MatCardModule, MatDividerModule,MatButtonModule, RouterOutlet, HeaderComponent, HomeComponent, NavigationComponent, FooterComponent, MatToolbarModule, CommonModule],  // Adicione o HeaderComponent aqui
+  imports: [ MatInputModule, MatFormFieldModule, HttpClientModule, MatIconModule, MatCardModule, MatDividerModule,MatButtonModule, RouterOutlet, HeaderComponent, HomeComponent, NavigationComponent, FooterComponent, MatToolbarModule, CommonModule],  // Adicione o HeaderComponent aqui
   templateUrl: 'app.component.html'
 })
 export class AppComponent {

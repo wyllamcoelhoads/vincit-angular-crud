@@ -1,0 +1,10 @@
+.card-create{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.card-create .card-title{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
