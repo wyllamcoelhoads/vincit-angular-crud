@@ -1,6 +1,7 @@
 .card-home{
-    background-color: antiquewhite;
-    color: black;
+    background-color: black;
+    color: white;
+    padding: 1.2rem;
 }
 
 .card-home .card-title{
