@@ -1,39 +1,53 @@
 {
-    "films":[
-        {
-            "id": 1,
-            "title": "Wandarvison",
-            "director": "Batman",
-            "generes": "Terro",
-            "year": 2020  
-        },
-        {
-            "id": 2,
-            "title": "Liga da justiça - snydercut",
-            "director": "Zack sbyder",
-            "generes": "Açã",
-            "year": 2021  
-        },
-        {
-            "id": 3,
-            "title": "All Start",
-            "director": "O senhor zé",
-            "generes": "Ficção",
-            "year": 2021  
-        },
-        {
-            "id": 4,
-            "title": "A rede social",
-            "director": "Free dom",
-            "generes": "Ação",
-            "year": 2019  
-        },
-        {
-            "id": 5,
-            "title": "Velosos e furiosos",
-            "director": "Zé pequeno",
-            "generes": "Ação",
-            "year": 2020  
-        }
-    ]
+  "films": [
+    {
+      "id": "1",
+      "title": "Wandarvison",
+      "director": "Batman",
+      "generes": "Terro",
+      "year": 2020
+    },
+    {
+      "id": "2",
+      "title": "Liga da justiça - snydercut",
+      "director": "Zack sbyder",
+      "generes": "Açã",
+      "year": 2021
+    },
+    {
+      "id": "3",
+      "title": "All Start",
+      "director": "O senhor zé",
+      "generes": "Ficção",
+      "year": 2021
+    },
+    {
+      "id": "4",
+      "title": "A rede social",
+      "director": "Free dom",
+      "generes": "Ação",
+      "year": 2019
+    },
+    {
+      "id": "5",
+      "title": "Velosos e furiosos",
+      "director": "Zé pequeno",
+      "generes": "Ação",
+      "year": 2020
+    },
+    {
+      "id": "8ea0",
+      "title": "Nome do filme",
+      "director": "Nome do diretor",
+      "genres": "Genero do filme",
+      "year": "Ano de lançamento"
+    },
+    {
+      "id": "1bf0",
+      "title": "Nome do filme",
+      "director": "Nome do diretor",
+      "genres": "Genero do filme",
+      "year": "Ano de lançamento"
+    }
+  ]
 }
