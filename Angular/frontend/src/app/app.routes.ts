@@ -1,6 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component'; // Importando o componente standalone
 import { MoviesComponent } from './views/movies/movies.component';
+import { MovieFindComponent } from './components/movie/movie-find/movie-find.component';
 import { FinanceComponent } from './views/finance/finance.component';
 import { LogoutComponent } from './views/logout/logout.component';
 import { SettingComponent } from './views/setting/setting.component';
@@ -18,6 +19,10 @@ export const routes: Routes = [
     {
         path: 'movies/create',
         component: MovieCreateComponent
+    },
+    {
+        path: 'movies/find',
+        component: MovieFindComponent
     },
     {
         path: 'finance',

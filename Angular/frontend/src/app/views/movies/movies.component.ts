@@ -25,5 +25,9 @@ export class MoviesComponent implements OnInit {
     this.router.navigate(['/movies/create']);
   }
 
+  navigateToMovieFind(){
+    this.router.navigate(['/movies/find'])
+  }
+
 }
 

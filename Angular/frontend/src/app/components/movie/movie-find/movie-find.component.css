@@ -1,0 +1,14 @@
+.btn-find-movies{
+    display: flex;
+    justify-content: end;
+    padding: 1.2rem;
+}
+
+button {
+    margin: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}

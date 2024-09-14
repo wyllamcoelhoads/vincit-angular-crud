@@ -23,10 +23,10 @@ import { SharedService } from '../../shared/shared.service';
 })
 export class MovieCreateComponent implements OnInit {
   movie: Movie = {
-    title: "Nome do filme",
-    director: "Nome do diretor",
-    genres: "Genero do filme",
-    year: "Ano de lançamento"
+    title: "",
+    director: "",
+    genres: "",
+    year: ""
   };
 
   constructor(private router: Router, private movieService: MovieService, private sharedService: SharedService) { }

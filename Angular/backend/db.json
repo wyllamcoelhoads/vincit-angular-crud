@@ -83,6 +83,20 @@
       "director": "Arnaldo",
       "genres": "Comêdia-Drama",
       "year": "2009"
+    },
+    {
+      "id": "c0c0",
+      "title": "Rapidos e furiosos ",
+      "director": "Brian",
+      "genres": "Acion",
+      "year": "2010"
+    },
+    {
+      "id": "2b17",
+      "title": "Piratas do caribe",
+      "director": "James camaron jr",
+      "genres": "Acao e comedia",
+      "year": "2000"
     }
   ]
 }

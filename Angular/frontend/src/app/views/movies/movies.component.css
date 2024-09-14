@@ -1,18 +1,18 @@
-.card-home{
+.card-create{
     background-color: black;
     color: white;
     padding: 1.2rem;
 }
 
 
-.card-home .card-title{
+.card-create .card-title{
     font-size: 1.3rem;
     margin-bottom: 10px;
     line-height: 1.2;
 }
 
 
-.card-home .card-subtitle{
+.card-create .card-subtitle{
     font-size: 0.8rem;
     
 }
@@ -20,4 +20,19 @@
 .btn-add-movies{
     display: flex;
     justify-content: end;
+}
+
+
+.btn-find-movies{
+    display: flex;
+    justify-content: end;
+    padding: 1.2rem;
+}
+
+.card-find{
+    margin: 0.3rem;
+}
+
+.card-create{
+    margin: 0.3rem;
 }
