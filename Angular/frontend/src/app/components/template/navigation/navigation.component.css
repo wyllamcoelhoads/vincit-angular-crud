@@ -1,29 +1,26 @@
-.sidenav {
+.mat-sidenav {
     background-color: black;
+    flex-direction: column;
+    width: 180px;
 }
 
-.sidenav .mat-list{
-    width: auto;
-}
-.sidenav a {
-    color: white;
-}
-
-.sidenav i {
-    color: white;
-}
 .content {
-    padding: 10px;
+    position: relative;
+    padding: 0.8rem;
     background-color: #696969;
     color: white;
 }
 .material-icons{
     vertical-align: middle;
-    padding: 2px;
+    margin: 0.2rem;
 }
 
 .mat-list{
-    vertical-align: middle;
-    padding: 2px;
     position: absolute;
 }
+
+a {
+    justify-content: center;
+    margin: 1.2rem;
+}
+
