@@ -48,6 +48,27 @@
       "director": "Nome do diretor",
       "genres": "Genero do filme",
       "year": "Ano de lançamento"
+    },
+    {
+      "id": "e73d",
+      "title": "Titanic",
+      "director": "James camaron",
+      "genres": "Drama-Acao",
+      "year": "1990"
+    },
+    {
+      "id": "9e00",
+      "title": "Nome do filme",
+      "director": "Nome do diretor",
+      "genres": "Genero do filme",
+      "year": "Ano de lançamento"
+    },
+    {
+      "id": "8244",
+      "title": "Nome do filmedfdfdfdfdf",
+      "director": "Nome do diretordfdfdf",
+      "genres": "Genero do filmedfdf",
+      "year": "Ano de lançamentofdfdf"
     }
   ]
 }

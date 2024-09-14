@@ -6,16 +6,16 @@
     width: auto;
 }
 .sidenav a {
-    color: aliceblue;
+    color: white;
 }
 
 .sidenav i {
-    color: aliceblue;
+    color: white;
 }
 .content {
     padding: 10px;
-    background-color: white;
-    color: black;
+    background-color: #696969;
+    color: white;
 }
 .material-icons{
     vertical-align: middle;
