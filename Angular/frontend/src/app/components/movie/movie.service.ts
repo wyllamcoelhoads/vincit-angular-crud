@@ -14,4 +14,8 @@ export class MovieService {
   create(movie: Movie): Observable<Movie> {
     return this.http.post<Movie>(`${API}/films`, movie);
   }
+
+  index(): Observable<Movie[]> {
+    return this.http.get<Movie[]>(`${API}/films`);
+  }
 }

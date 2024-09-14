@@ -4,11 +4,12 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import {MovieIndexComponent} from '../../components/movie/movie-index/movie-index.component';
 
 @Component({
   selector: 'app-movies',
   standalone: true,
-  imports: [HttpClientModule, MatCardModule, MatDividerModule, MatButtonModule],
+  imports: [MovieIndexComponent, HttpClientModule, MatCardModule, MatDividerModule, MatButtonModule],
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.css']
 })
