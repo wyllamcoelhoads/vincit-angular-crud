@@ -11,11 +11,13 @@ import {MatButtonModule} from '@angular/material/button';
 import {FormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {CommonModule } from '@angular/common';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { SharedService } from '../../shared/shared.service';
 
 @Component({
   selector: 'app-movie-create',
   standalone: true,
-  imports: [CommonModule, FormsModule, MatIconModule, MatInputModule, MatFormFieldModule, MoviesComponent, MatCardModule, MatDividerModule, MatButtonModule],
+  imports: [MatSnackBarModule, CommonModule, FormsModule, MatIconModule, MatInputModule, MatFormFieldModule, MoviesComponent, MatCardModule, MatDividerModule, MatButtonModule],
   templateUrl: './movie-create.component.html',
   styleUrls: ['./movie-create.component.css']
 })
@@ -27,15 +29,15 @@ export class MovieCreateComponent implements OnInit {
     year: "Ano de lançamento"
   };
 
-  constructor(private router: Router, private movieService: MovieService) { }
+  constructor(private router: Router, private movieService: MovieService, private sharedService: SharedService) { }
 
   ngOnInit(): void {
 
   }
 
   createMovie(): void {
-    this.movieService.create(this.movie).subscribe(
-      () => {
+    this.sharedService.showMessage('Filme Adicionado com sucesso! ');
+    this.movieService.create(this.movie).subscribe(() => {
         this.router.navigate(["./movies"]);
       }
     );

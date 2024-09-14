@@ -69,6 +69,13 @@
       "director": "Nome do diretordfdfdf",
       "genres": "Genero do filmedfdf",
       "year": "Ano de lançamentofdfdf"
+    },
+    {
+      "id": "b1e2",
+      "title": "Meu malvado favorito",
+      "director": "O gru",
+      "genres": "Animação",
+      "year": "2020"
     }
   ]
 }
